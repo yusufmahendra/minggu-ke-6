@@ -35,9 +35,12 @@
 
 ?>
 <br>
-
 <?php
 $d=mktime(04, 35, 30, 9, 26, 2001);
 echo "Tanggal Lahir Saya Adalah " . date("Y-m-d h:i:sa", $d);
 ?>
-
+<br>
+<?php
+$d=strtotime("10:30pm September 26 2030");
+echo "Tanggal Lahir Saya Adalah " . date("Y-m-d h:i:sa", $d);
+?>
